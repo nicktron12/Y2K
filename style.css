@@ -109,13 +109,18 @@ header {
     gap: 40px;
 }
 
-.header__list-link1 {
+.header__list-link {
     font-family: var(--font-family);
     font-weight: 400;
     font-size: 14px;
     line-height: 143%;
     letter-spacing: -0.02em;
     text-transform: uppercase;
+    color: #5a5c5c;
+    text-decoration: none;
+}
+
+.header__list-link:hover {
     color: #8d4a00;
     border-bottom: 2px solid #8d4a00;
 }
@@ -194,9 +199,11 @@ header {
     margin-top: 32px;
     width: 500px;
 }
+
 .main__btn1-img {
     margin-left: 10px;
 }
+
 .main__btn1 {
     border-radius: 9999px;
     padding: 20px 40px;
