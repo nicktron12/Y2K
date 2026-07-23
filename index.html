@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>SOLARIUM</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -21,24 +21,18 @@
 <body>
     <header class="container">
         <span class="header__span">SOLARIUM</span>
-        <ul class="header__list">
-            <a class="header__list-link1" href="">
-                <li>Trends</li>
-            </a>
-            <a class="header__list-link" href="">
-                <li>Archives</li>
-            </a>
-            <a class="header__list-link" href="">
-                <li>Drops</li>
-            </a>
-            <a class="header__list-link" href="">
-                <li>Community</li>
-            </a>
-        </ul>
+        <nav>
+            <ul class="header__list">
+                <li><a class="header__list-link1" href="#Trends">Trends</a></li>
+                <li><a class="header__list-link" href="#Archives">Archives</a></li>
+                <li><a class="header__list-link" href="#Drops">Drops</a></li>
+                <li><a class="header__list-link" href="#Community">Community</a></li>
+            </ul>
+        </nav>
         <button class="header__button">Join the Club</button>
     </header>
     <main class="">
-        <div class="main__divmain container">
+        <div class="main__divmain container" id="Trends">
             <div class="main__div">
                 <span class="main__span">THE Y2K RENAISSANCE</span>
                 <h1 class="main__h1">Y2K Era & <span class="main__h1-span">Streetwear</span></h1>
@@ -52,7 +46,8 @@
                             <div class="modal">
                                 <img class="modalimg" src="/img/Graphic Element_margin (1).png" alt="">
                                 <h2 class="modalh2">Secret Drop!</h2>
-                                <p class="modalp1">You've unlocked a sun-drenched exclusive reward for the new season collection.</p>
+                                <p class="modalp1">You've unlocked a sun-drenched exclusive reward for the new season
+                                    collection.</p>
                                 <img class="modalimg2" src="/img/Discount Banner.png" alt="">
                                 <button class="modalbtn1">
                                     <img class="modalbtn1__img" src="/img/Icon (3).png" alt="">
@@ -71,7 +66,7 @@
             </div>
             <img class="main__img" src="img/Container.png" alt="">
         </div>
-        <div class="main__divmain2">
+        <div class="main__divmain2" id="Archives">
             <div class="main__divmain2-div">
                 <h2 class="divmain2__h2">What is Y2K and why is it a hit again?</h2>
                 <p class="divmain2__p1">Fashion is cyclical, and today Gen Z is setting the new rules. We mix vintage
@@ -94,7 +89,7 @@
             </div>
             <img src="img/Right Column_ Image.png" alt="">
         </div>
-        <div class="main__divmain3">
+        <div class="main__divmain3" id="Drops">
             <h2 class="main__divmain3-h2">Trend Gallery</h2>
             <div class="texts1">
                 <p class="main__divmain3-p">The essential artifacts of modern urban expression. Curated for the bold.
@@ -159,7 +154,7 @@
         </div>
     </main>
     <footer>
-        <div class="footer__divmain">
+        <div class="footer__divmain" id="Community">
             <div class="footer__divmain-div">
                 <div class="divmain__div-divtext">
                     <h2 class="div__divtext-h2">Join the Movement</h2>
